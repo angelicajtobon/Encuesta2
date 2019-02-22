@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffffff
+}
+
+h1 {
+  font-family: sans-serif 
+}
+
+
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #8880D0;
+    border-radius: 6px;
+    border: -2px solid;
+ }
+
+ .btn-container {
+   margin-bottom: 50px;
+
+ }
+
+span{
+  font-family: sans-serif;
+  color: #004d40;
+}
+
+td, th {
+  text-align: center !important;
+}
+
+.hidden {
+  display: none;
+}

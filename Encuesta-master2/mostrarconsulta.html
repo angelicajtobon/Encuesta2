@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Generar informe</title>
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+       <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "GbHi8bXhDyMP2m1NDUSiYmznAJdJzX36DDNZwy8",
+          authDomain: "mi-primer-proyecto-f6149.firebaseapp.com",
+          databaseURL: "https://mi-primer-proyecto-f6149.firebaseio.com",
+          projectId: "mi-primer-proyecto-f6149",
+          storageBucket: "mi-primer-proyecto-f6149.appspot.com",
+          messagingSenderId: "856327358339"
+        };
+        firebase.initializeApp(config);
+      </script>
+</head>
+<header>
+	<div class="card-panel red lighten-4"> <h3>Consolidado</h2></div>
+</header>
+<body>
+<div class="container">
+  
+</div>
+<center><input class="btn waves-effect waves-light  pink lighten-5" type="submit" name="generar" id="generar" value="Generar"></center>
+      <table>
+        <thead>
+          <tr>
+              <th>R1</th>
+              <th>R2 </th>
+              <th>R3 </th>
+              <th>R4 </th>
+              <th>R5 </th>
+              <th>R6 </th>
+              <th>R7 </th>
+              <th>R8 </th>
+              <th>R9 </th>
+              <th>R10 </th>
+              <th>R11 </th>
+              <th>R12 </th>
+              <th>R13 </th>
+              <th>R14 </th>
+              <th>R15 </th>
+              <th>R16 </th>
+              <th>R17 </th>
+              <th>R18 </th>
+              <th>R19 </th>
+              <th>R20 </th>
+              <th>R21 </th>
+              <th>R22 </th>
+              <th>R23 </th>
+              <th>R24 </th>
+              <th>R25 </th>
+              <th>R26 </th>
+              <th>R27 </th>
+              <th>R28 </th>
+              <th>R29 </th>
+              <th>R30 </th>
+              <th>R31 </th>
+              <th>Fecha </th>
+              <th>Folio</th>
+          </tr>
+        </thead>
+
+        <tbody id="table-body">
+        </tbody>
+      </table>
+            
+
+<script type="text/javascript" src="js/consulta.js"></script>
+
+</body>
+</html>
